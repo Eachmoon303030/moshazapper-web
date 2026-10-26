@@ -1,0 +1,13 @@
+{
+  "name": "Mosha Zapper",
+  "short_name": "Mosha Zapper",
+  "start_url": "./",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "background_color": "#0C1218",
+  "theme_color": "#0C1218",
+  "icons": [
+    { "src": "icon-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
