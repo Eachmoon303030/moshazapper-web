@@ -1354,6 +1354,7 @@ function frame(now) {
     if (ev.target === about || ev.target.classList.contains('aclose')) return close();
   });
 })();
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
 resize();
 seedAttract();
 refreshChips();
